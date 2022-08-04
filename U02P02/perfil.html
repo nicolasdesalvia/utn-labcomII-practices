@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Datos del usuario</legend>
+        <h1>creacion de perfil</h1>
+        <p><input value="estudiante" readonly /></p>
+        <p><label for="nombre">Nombre</label></p>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese su Nombre">
+        <p><label for="Email">Email</label></p>
+        <input type="text" name="Email" id="Email" placeholder="Ingrese su Email">
+        <p><label for="Edad">Edad</label></p>
+        <input type="number" name="Edad" id="Edad" placeholder="Ingrese su Edad">
+        <p><label for="Selecciobable">Seleccione su nacionalidad</label></p>
+        <select name="Seleccionable" id="seleccionable">
+            <option value="Opciones">Opciones</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Chile">Chile</option>
+            <option value="Uruguay">Uruguay</option>
+        </select>
+        <p><label for="Seleccionable">Seleccione su condicion laboral</label></p>
+        <select name="Seleccionable" id="Seleccionable">
+            <option value="Opciones">opciones</option>
+            <option value="Desempleado">Desempleado</option>
+            <option value="En búsqueda laboral">En búsqueda laboral</option>
+            <option value="trabajo part time">trabajo part time</option>
+            <option value="trabajo full time">trabajo full time</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>gustos personales</legend>
+        <label for="Gustos Musicales">Gustos Musicales</label>
+        <p><input type="text" id="Gustos Musicales" name="Gustos Musicales" placeholder="ingrese su gusto musical"></p>
+        <p><label for="Seleccionable">Seleccione su comida preferida</label></p>
+        <select name="Seleccionable" id="Seleccionable">
+            <option value="opciones">opciones</option>
+            <option value="Hamburguesa">Hamburguesa</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Pollo">Pollo</option>
+            <option value="Asado">Asado</option>
+        </select>
+        <label for="checkbox">Recordar sus datos</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <p><input type="button" value="enviar"></p>
+</body>
+
+</html>
