@@ -15,17 +15,24 @@
         <thead>
             <form action="">
                 <tr>
-                    <th><label for="Nombre">Nombre:</label></th>
-                    <th><input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre."></th>
-                    <th><label for="Email">Email:</label></th>
-                    <th><input type="email" name="Email" id="Nombre" placeholder="Ingrese su email."></th>
-                    <th><label for="Edad">Edad:</label></th>
-                    <th><input type="date" name="Edad" id="Edad" placeholder="Ingrese su edad."></th>
-                    <th><label for="Color">Color:</label></th>
-                    <th><input type="color" name="Color" id="Color" placeholder="Ingrese un color."></th>
-                    <th><label for="Comentario">Comentario:</label></th>
-                    <th><input type="textarea" name="Comentario" id="Comentario" placeholder="Ingrese un comentario.">
-                    </th>
+                    <td><label for="nombre"><b>Nombre:</b></label></td>
+                    <td><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mail"><b>Correo electrónico:</b></label></td>
+                    <td><input type="email" name="mail" id="mail" placeholder="Ingrese su correo electrónico." required></td>
+                </tr>
+                <tr>
+                    <td><label for="edad"><b>Edad:</b></label></td>
+                    <td><input type="date" name="edad" id="edad"></td>
+                </tr>
+                <tr>
+                    <td><label for="color"><b>Color favorito:</b></label></td>
+                    <td><input type="color" name="colo" id="color"></td>
+                </tr>
+                <tr>
+                    <td><label for="comentario"><b>Comentario:</b></label></td>
+                    <td><textarea name="comentario" id="comentario" cols="30" rows="10" minlength="10"></textarea></td>
                 </tr>
         </thead>
     </table>
